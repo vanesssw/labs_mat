@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Временные файлы Office (создаются, пока документ открыт)
+~$*
+*.tmp
+
+# Результаты работы архиватора ЛР2 (сжатые и распакованные копии)
+*.lab2
+lab2/test_files/* (*).*
+
+# IDE и ОС
+.vscode/
+.idea/
+.claude/
+Thumbs.db
+desktop.ini
+.DS_Store
