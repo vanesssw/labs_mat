@@ -89,6 +89,7 @@ def cmd_bench(args) -> None:
 
 
 def main(argv=None) -> int:
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
     parser = argparse.ArgumentParser(
         prog='archiver.py',
         description='Архиватор ЛР №2: RLE, Хаффман, Шеннон–Фано, LZW. Сжатие без потерь.')
